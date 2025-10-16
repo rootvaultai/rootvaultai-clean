@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/.well-known/(.*)", "dest": "/.well-known/$1" }
+  ]
+}
